@@ -1,0 +1,32 @@
+.header {
+	align-items: center;
+	background: #fafafa;
+	border-bottom: 1px solid #ecedee;
+	display: flex;
+	padding: 15px 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.logo-link {
+  box-sizing: content-box;
+  font-size: 1.8rem;
+}
+
+.logo-link:hover {
+  cursor: pointer;
+}
+
+.logo-link:hover .logo-link__img {
+  fill: #1865f2;
+}
+
+.logo-link:focus  {
+  border: 2px solid #1865f2;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}
