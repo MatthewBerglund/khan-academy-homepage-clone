@@ -1,0 +1,50 @@
+.testimonial {
+  padding: 0 20px;
+}
+
+.testimonial__quote {
+  font-family: 'Source Pro Serif', serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  line-height: 1.3;
+}
+
+.testimonial__source {
+	display: grid;
+	grid-template-columns: 1fr minmax(auto, max-content);
+	justify-items: flex-end;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.testimonial__img {
+  width: 100px;
+}
+
+.cite {
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial {
+    min-width: 500px;
+  }
+
+  .testimonial__quote {
+    font-size: 3rem;
+  }
+
+  .testimonial__img {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .testimonial {
+    width: 800px;
+  }
+
+  .testimonial__quote {
+    font-size: 3.5rem;
+  }
+}
