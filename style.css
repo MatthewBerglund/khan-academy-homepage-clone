@@ -74,7 +74,7 @@ html {
 .btn--small {
   justify-self: flex-start;
   font-size: 1.7rem;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 
@@ -233,6 +233,50 @@ html {
 
   .section__headline {
     font-size: 4rem;
+  }
+
+  .btn--small {
+    padding: 1.2rem 3rem;
+  }
+
+  .section--category-reversed {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 120px 60px;
+  }
+
+  .section--category {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 120px;
+    position: relative;
+  }
+
+  .section--together {
+    margin-bottom: 0;
+  }
+
+  .section--category .section__img {
+    position: absolute;
+    width: 800px;
+  }
+
+  .section--teachers .section__img {
+    top: 41px;
+    left: -218px;
+  }
+
+  .section--students .section__img {
+    top: 0px;
+    right: 0px;
+  }
+
+  .btn--small {
+    padding: 1.4rem 3rem;
   }
 }
 

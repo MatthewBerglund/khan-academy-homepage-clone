@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="header/header.css">
   <link rel="stylesheet" href="start-here/start-here.css">
   <link rel="stylesheet" href="benefits/benefits.css">
+  <link rel="stylesheet" href="category-card/category-card.css">
   <title>Khan Academy Homepage (Clone)</title>
 </head>
 <body class="page">
@@ -496,8 +497,8 @@
         </div>
       </div>
     </section>
-    <section class="section">
-      <svg aria-hidden="true" fill="none" viewBox="80 0 741 520">
+    <section class="section section--flex section--category section--teachers">
+      <svg class="section__img" aria-hidden="true" fill="none" viewBox="80 0 741 520">
         <mask id="lohp_faces_mask0" mask-type="alpha" maskUnits="userSpaceOnUse" height="421" width="340" x="481" y="45">
           <path
             d="M757.368 409.886C759.219 405.331 756.597 396.126 755.055 392.093L757.368 389.068C757.962 389.187 759.397 389.175 760.394 388.178C761.39 387.182 762.114 380.29 762.351 376.969C764.783 375.664 770.002 372.77 771.425 371.631C772.849 370.492 773.798 363.683 774.094 360.421L777.831 355.439C779.61 354.906 784.272 353.162 788.684 350.457C794.2 347.077 793.31 339.07 793.133 337.469C792.955 335.867 787.617 322.167 787.083 319.32C786.656 317.042 782.872 308.051 781.033 303.84L785.126 297.613L788.151 298.502L785.837 296.367C786.905 296.248 788.862 295.798 788.151 294.944C787.439 294.09 784.533 292.571 783.168 291.919V289.784L783.88 288.004C784.711 287.589 787.047 286.652 789.752 286.225C792.456 285.798 796.217 282.133 797.759 280.353C797.462 279.82 796.869 278.574 796.869 277.862C796.869 279.286 792.777 281.421 790.997 282.311C789.574 283.022 787.32 282.014 786.371 281.421V279.642L789.752 278.752C790.108 278.396 790.962 277.435 791.531 276.439C792.101 275.443 793.31 268.907 793.844 265.763C794.615 263.094 796.193 257.472 796.335 256.333C796.478 255.194 795.564 253.605 795.09 252.952C795.564 246.666 796.584 232.918 796.869 228.22C797.154 223.523 795.801 212.859 795.09 208.114C794.971 207.403 795.766 205.944 799.894 205.801C804.022 205.659 809.324 195.422 811.459 190.321C812.052 188.186 813.95 183.204 816.797 180.357C820.356 176.799 820.178 161.853 819.822 156.337C819.466 150.821 805.765 142.459 805.054 141.925C807.901 133.918 805.232 121.641 803.986 116.837C802.99 112.993 794.912 107.407 790.997 105.093L786.727 104.026C786.549 102.78 785.802 99.8979 784.236 98.3321C782.67 96.7664 779.551 97.6797 778.186 98.3321L773.738 92.2826C772.967 91.5115 770.607 89.6492 767.333 88.3681C764.059 87.087 759.326 87.8343 757.369 88.3681H755.056L753.099 83.2082C751.972 82.0813 749.433 79.8275 748.294 79.8275C746.871 79.8275 743.49 79.8275 740.288 81.9627C737.725 83.6708 732.933 85.0468 730.857 85.5213L725.164 83.2082C722.791 81.1324 716.587 76.5892 710.751 75.0235C704.915 73.4577 699.186 76.3876 697.051 78.0483L694.56 79.8275C693.789 77.8703 692.104 73.7423 691.535 72.8883C690.823 71.8208 687.977 63.636 685.308 60.9671C682.639 58.2981 678.902 54.9175 666.625 54.9175C656.803 54.9175 656.602 56.2223 657.729 56.8747C656.364 57.4085 653.458 58.4761 652.747 58.4761C651.857 58.4761 648.654 53.494 644.562 51.181C641.288 49.3306 641.063 51.952 641.359 53.494C640.054 53.494 637.267 53.0314 636.555 51.181C635.665 48.868 632.996 48.512 623.21 46.021C615.382 44.0282 608.442 46.021 605.951 47.2665H600.08C599.19 47.2665 590.471 49.2237 588.514 49.7575C586.557 50.2912 579.44 50.825 576.237 53.494C573.675 55.6291 567.697 64.3476 565.028 68.44H562.181C560.876 68.9145 557.199 70.6819 552.928 73.9558C548.658 77.2297 549.014 82.1998 549.726 84.2757C547.769 85.106 543.534 86.9446 542.253 87.6563C540.651 88.546 539.228 89.9694 535.847 99.2217C532.467 108.474 534.068 109.542 533.356 110.787C532.645 112.033 529.442 115.413 528.018 121.641C526.595 127.868 523.392 128.046 522.147 130.537C520.901 133.028 514.852 133.74 513.25 134.63C511.649 135.519 508.802 138.366 508.268 140.501C507.735 142.636 505.421 144.416 502.93 149.398C500.439 154.38 499.194 167.368 497.771 168.614C496.347 169.859 493.678 176.621 491.721 181.425C490.155 185.268 486.68 187.415 485.138 188.008C485.078 190.381 484.995 195.802 485.138 198.506C485.315 201.887 484.07 200.463 482.824 207.402C481.579 214.342 484.426 228.042 484.07 230.355C483.714 232.668 481.757 237.472 481.401 241.387C481.046 245.301 482.469 248.682 487.273 255.799C492.077 262.916 493.679 269.856 495.28 273.058C496.881 276.261 503.109 283.2 503.821 284.446C504.532 285.691 506.311 290.139 507.201 293.342C508.091 296.545 506.311 296.723 505.066 299.036C503.82 301.349 505.955 302.95 506.311 307.576C506.667 312.203 514.318 318.608 516.809 320.921C518.802 322.772 525.705 326.793 528.908 328.572C530.331 327.327 532.537 325.583 529.975 328.572C526.772 332.309 525.883 341.917 526.061 344.052C526.239 346.187 528.018 348.678 534.957 354.372C540.508 358.927 549.132 360.303 552.75 360.421C556.546 359.769 564.351 357.646 565.205 354.372C566.059 351.098 564.019 344.704 562.892 341.917C559.037 337.706 571.967 349.39 578.194 352.237C580.857 353.454 641.181 456.681 699.364 452.944C701.09 452.834 701.946 453.597 702.211 453.834C714.132 464.51 720.003 466.111 725.163 465.933C730.323 465.755 736.907 463.798 745.447 453.834C753.988 443.87 751.497 429.28 751.853 423.764C752.208 418.248 755.055 415.579 757.368 409.886Z"
@@ -571,14 +572,21 @@
             y="11.5017"></image>
         </g>
       </svg>
-      <p>TEACHERS</p>
-      <h2 class="section__headline">Differentiate your classroom and engage every student.</h2>
-      <p>We empower teachers to support their entire classroom. 90% of US teachers who have used Khan Academy have found us effective.</p>
-      <p>SOURCE: 2018 ConStat U.S. Online Education Customer Survey</p>
-      <a class="btn btn--small" href="">Teachers, start here</a>
+      <div class="card-container">
+        <div class="category-card">
+          <p class="category-card__category">TEACHERS</p>
+          <h2 class="category-card__headline">Differentiate your classroom and engage every student.</h2>
+          <div>
+            <p class="category-card__text">We empower teachers to support their entire classroom. 90% of US teachers who have
+              used Khan Academy have found us effective.</p>
+            <cite class="category-card__cite">SOURCE: 2018 ConStat U.S. Online Education Customer Survey</cite>
+          </div>
+          <a class="btn btn--small" href="">Teachers, start here</a>
+        </div>
+      </div>
     </section>
-    <section class="section">
-      <svg aria-hidden="true" fill="none" viewBox="100 115 800 539">
+    <section class="section section--flex section--category section--students">
+      <svg class="section__img" aria-hidden="true" fill="none" viewBox="100 115 800 539">
         <mask height="591" id="lohp_space_exploration_purple_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="577"
           x="305" y="114">
           <path
@@ -1009,10 +1017,14 @@
             </g>
           </g>
       </svg>
-      <p>LEARNERS AND STUDENTS</p>
-      <h2 class="section__headline">You can learn anything.</h2>
-      <p>Build a deep, solid understanding in math, science, and more.</p>
-      <a class="btn btn--small" href="">Learners, start here</a>
+      <div class="card-container card-container--reversed">
+        <div class="category-card">
+          <p class="category-card__category">LEARNERS AND STUDENTS</p>
+          <h2 class="category-card__headline">You can learn anything.</h2>
+          <p class="category-card__text">Build a deep, solid understanding in math, science, and more.</p>
+          <a class="btn btn--small" href="">Learners, start here</a>
+        </div>
+      </div>
     </section>
     <section class="section section--gray section--testimonial">
       <figure class="testimonial">
@@ -1027,11 +1039,18 @@
         </figcaption>
       </figure>
     </section>
-    <section class="section">
-      <p>TOGETHER WE CAN MAKE A DIFFERENCE</p>
-      <h2 class="section__headline">Every child deserves the chance to learn.</h2>
-      <p>Across the globe, 617 million children are missing basic math and reading skills. We’re a nonprofit delivering the education they need, and we need your help. You can change the course of a child’s life.</p>
-      <a class="btn btn--small" href="">Give them the chance</a>
+    <section class="section section--flex section--category section--together">
+      <svg aria-hidden="true" fill="none" viewBox="0 0 619 496"><g style="transform: translateY(21.7065px) translateX(19.1528px) translateZ(0px) scale(1); transform-origin: center center 0px; will-change: transform;"><mask id="lohp_donate_mask0" mask-type="alpha" maskUnits="userSpaceOnUse" height="216" width="331" x="0" y="0"><path d="M56.1672 21.6316C57.1709 20.7579 58.3451 20.104 59.6107 19.693C105.043 4.93937 125.594 0 157.791 0C190.441 0 245.938 3.8097 257.907 10.1635C269.876 16.5174 303.612 44.4595 309.054 55.8886C314.496 67.3177 331.907 160.89 330.821 175.707C329.735 190.524 268.791 201.11 242.674 209.577C216.558 218.044 183.914 218.466 137.116 203.227C90.3184 187.989 43.5274 187.989 28.2944 162.582C16.4059 142.753 5.8399 120.35 1.77349 111.468C0.628136 108.967 0.595001 106.129 1.66814 103.596C6.82367 91.4248 22.3181 55.0301 25.0307 50.8047C27.848 46.4162 50.125 26.8914 56.1672 21.6316Z" fill="#ffffff"></path></mask><g mask="url(#lohp_donate_mask0)"><image href="https://cdn.kastatic.org/images/lohp/donate_space_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/donate_space_v31.jpeg" height="216" width="331" x="0" y="-0.625488"></image></g></g><g style="transform: translateY(24.2602px) translateX(-25.537px) translateZ(0px) scale(1); transform-origin: center center 0px; will-change: transform;"><mask id="lohp_donate_mask1" mask-type="alpha" maskUnits="userSpaceOnUse" height="106" width="116" x="456" y="22"><path d="M473.559 58.0102C474.102 56.641 474.951 55.4152 476.038 54.4216C485.497 45.7776 490.309 42.2556 498.55 39.2272C507.256 36.0275 522.531 31.8823 526.515 32.8664C530.499 33.8505 542.982 40.0307 545.859 43.3775C548.736 46.7244 565.053 76.7857 566.613 81.9224C568.172 87.059 553.241 96.6253 547.333 102.059C541.425 107.493 532.773 110.836 518.392 110.248C504.012 109.661 491.534 114.246 484.302 107.114C479.507 102.384 474.735 96.9306 472.063 93.7922C470.64 92.12 469.851 90.0179 469.786 87.8228C469.615 82.1065 469.312 70.9955 469.486 69.4855C469.659 67.9875 472.206 61.4204 473.559 58.0102Z" fill="#ffffff"></path></mask><g mask="url(#lohp_donate_mask1)"><image href="https://cdn.kastatic.org/images/lohp/donate_butterfly_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/donate_butterfly_v31.jpeg" height="106" width="116" x="456" y="21.3745"></image></g></g><g style="transform: translateY(-17.6206px) translateX(-25.537px) translateZ(0px) scale(1); transform-origin: center center 0px; will-change: transform;"><g opacity="0.9"><mask id="lohp_donate_mask3" mask-type="alpha" maskUnits="userSpaceOnUse" height="187" width="187" x="431" y="309"><path d="M505.792 323.444C513.03 323.055 537.431 323.564 566.526 326.318C570.438 326.688 573.748 329.352 574.987 333.081L614.52 452.037C616.111 456.824 613.889 462.052 609.298 464.144C607.09 465.15 604.779 466.185 602.726 467.067C596.322 469.821 573.978 476.887 553.951 480.163L476.648 492.809C472.644 493.464 468.611 491.65 466.707 488.067C464.806 484.492 462.94 480.489 462.543 478.06C461.728 473.077 457.515 447.328 448.263 420.698C440.861 399.394 435.481 364.512 433.716 349.733C433.763 346.03 435.002 338.436 439.579 337.687C445.301 336.751 498.027 323.862 505.792 323.444Z" fill="#ffffff"></path></mask><g mask="url(#lohp_donate_mask3)"><image href="https://cdn.kastatic.org/images/lohp/donate_fractals_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/donate_fractals_v31.jpeg" height="187.5" width="188" x="431" y="308.375"></image></g></g></g><g style="transform: translateY(0px) translateX(0px) translateZ(0px) scale(1); transform-origin: center center 0px; will-change: transform;"><mask id="lohp_donate_mask2" mask-type="alpha" maskUnits="userSpaceOnUse" height="346" width="465" x="76" y="30"><path d="M363.371 30C363.371 31.6451 363.371 33.1841 363.371 34.4046C366.884 35.7313 370.184 37.005 373.431 38.3317C374.336 38.7031 375.188 39.34 375.986 39.9768C378.381 41.9403 378.328 44.5406 375.88 46.4511C375.188 46.9817 374.442 47.4063 373.75 47.8839C376.465 50.4312 379.233 52.8723 381.788 55.5257C383.758 57.5953 385.568 59.8773 387.111 62.2653C388.176 63.9635 388.921 66.0331 389.347 67.9967C390.997 75.8507 394.564 82.9087 399.035 89.4892C403.559 96.1757 409.095 101.907 416.281 105.887C417.08 106.312 417.825 106.736 418.677 107.055C427.194 110.345 432.357 116.66 435.019 125.098C439.383 139.161 438.691 153.012 432.251 166.385C431.825 167.234 431.399 168.136 431.026 169.038C430.973 169.091 431.026 169.197 431.026 169.356C435.817 169.25 440.608 169.091 445.345 168.985C458.387 168.667 471.428 168.295 484.469 167.977C487.77 167.871 490.431 169.144 492.401 171.798C507.731 192.494 521.89 213.88 533.974 236.594C535.624 239.671 537.008 242.856 538.605 245.987C540.468 249.701 541 253.681 541 257.715C541 267.532 540.947 277.35 540.681 287.167C540.414 296.242 539.882 305.263 539.51 314.338C539.19 322.511 538.977 330.683 538.711 338.855C538.658 340.501 537.54 341.456 536.209 342.04C533.92 343.048 531.578 344.109 529.13 344.587C522.476 345.914 515.822 347.187 509.115 348.036C493.732 350 478.295 351.698 462.911 353.396C447.9 355.041 432.836 356.633 417.825 358.066C404.571 359.34 391.316 360.56 378.062 361.622C362.679 362.842 347.295 364.116 331.911 364.965C316.475 365.814 300.985 366.185 285.548 366.716C267.663 367.353 249.724 367.778 231.839 368.574C212.516 369.423 193.247 370.537 173.924 371.651C161.681 372.341 149.438 373.244 137.142 374.093C128.998 374.676 120.907 375.685 112.762 375.897C103.341 376.162 93.8657 375.844 84.4439 375.738C83.3261 375.738 82.2082 375.632 81.1436 375.525C79.0677 375.366 77.9498 374.411 77.7901 372.288C77.3643 369.635 77.3111 366.982 77.3111 364.275C77.3111 333.92 77.3643 303.512 77.2578 273.157C77.2578 266.736 76.7788 260.262 76.4061 253.841C75.8738 244.978 75.8738 236.063 76.3529 227.201C76.6723 221.31 77.2046 215.472 77.2046 209.582C77.2046 204.753 76.7255 199.977 76.2997 195.147C75.8738 190.106 76.5126 185.383 79.3338 181.031C80.4516 179.333 81.7824 178.484 83.9116 178.431C109.835 177.794 135.758 177.051 161.734 176.414C176.16 176.043 190.638 175.672 205.064 175.3C205.596 175.3 206.182 175.035 206.554 174.716C210.866 170.63 215.124 166.544 219.383 162.405C219.755 162.033 220.021 161.449 220.181 160.972C222.044 155.665 223.854 150.305 225.717 144.998C227.527 139.798 231.359 137.834 236.683 138.259C238.652 138.418 240.622 138.683 242.644 138.842C243.123 138.895 243.762 138.842 244.082 138.524C249.937 133.536 255.579 128.229 259.305 121.489C261.701 117.138 263.351 112.361 264.788 107.585C267.077 99.9966 268.887 92.2487 271.016 84.6069C272.826 78.1857 275.381 72.0829 279.586 66.8292C282.088 63.7512 285.282 61.5754 288.582 59.4527C299.654 52.2355 311.205 45.8673 323.288 40.5075C330.155 37.4826 337.288 36.8988 344.634 37.7479C346.018 37.9071 347.455 37.6949 348.732 38.1725C350.649 38.8623 352.458 39.9768 354.268 40.932C355.013 41.3035 355.705 41.7811 356.451 42.1526C357.356 42.5771 357.888 42.4179 358.101 41.2504C358.952 37.3234 360.975 33.874 362.892 30.3715C362.998 30.2123 363.158 30.1592 363.371 30Z" fill="#ffffff"></path></mask><g mask="url(#lohp_donate_mask2)"><image href="https://cdn.kastatic.org/images/lohp/donate_students_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/donate_students_v31.jpeg" height="367.057" width="500.285" x="50" y="29"></image></g></g></svg>
+      <div class="card-container">
+        <div class="category-card">
+          <p class="category-card__category">TOGETHER WE CAN MAKE A DIFFERENCE</p>
+          <h2 class="category-card__headline">Every child deserves the chance to learn.</h2>
+          <p class="category-card__text">Across the globe, 617 million children are missing basic math and reading skills.
+            We’re a nonprofit delivering the
+            education they need, and we need your help. You can change the course of a child’s life.</p>
+          <a class="btn btn--small" href="">Give them the chance</a>
+        </div>
+      </div>
     </section>
     <section class="section section--join">
       <h2 class="section__headline">Join Khan Academy today</h2>

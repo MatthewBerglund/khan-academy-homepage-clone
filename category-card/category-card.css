@@ -1,0 +1,55 @@
+.category-card {
+  display: grid;
+  row-gap: 30px;
+}
+
+.category-card__category {
+  color: #7c7c7c;
+}
+
+.category-card__headline {
+  font-family: 'Source Pro Serif', serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+.category-card__cite {
+  color: #7c7c7c;
+  display: block;
+  font-size: 1.4rem;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .category-card {
+    margin-top: 40px;
+    width: 500px;
+  }
+
+  .category-card__headline {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 1080px;
+  }
+
+  .card-container--reversed {
+    justify-content: flex-start;
+  }
+  
+  .category-card {
+    margin-top: 0;
+    width: 450px;
+  }
+
+  .category-card__text {
+    font-size: 1.7rem;
+  }
+}
