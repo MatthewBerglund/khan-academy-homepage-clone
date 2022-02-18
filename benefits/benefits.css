@@ -45,3 +45,27 @@
     grid-column: 2;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .benefits-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 60px;
+    text-align: center;
+    width: 1080px;
+  }
+
+  .benefit {
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px minmax(auto, max-content) minmax(auto, max-content);
+    justify-items: center;
+  }
+
+  .benefit__img {
+    grid-row: 1 / span 1;
+  }
+
+  .benefit__text {
+    grid-column: 1;
+  }
+}

@@ -279,33 +279,3 @@ html {
     padding: 1.4rem 3rem;
   }
 }
-
-/* @media screen and (min-width: 768px) {
-
-  .section {
-    padding-left: 40px;
-  }
-  
-  .section__headline {
-    font-size: 5rem;
-  }
-
-  .section--feature .section__content {
-    width: 415px;
-    margin-top: 360px;
-  }
-
-  .section--feature .section__img {
-    width: 759px;
-    left: 403px;
-    top: 105px;
-  }
-
-  .section--feature .btn {
-    width: 250px;
-  }
-
-  .section--benefits .section-headline {
-    text-align: center;
-  }
-} */
