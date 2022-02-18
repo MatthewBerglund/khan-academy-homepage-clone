@@ -43,8 +43,6 @@
   .start-container {
     width: 500px;
     margin-top: 260px;
-    padding-left: 40px;
-    padding-right: 40px;
   }
 
   .start-container .section__headline {
@@ -68,6 +66,11 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .section--start {
+    display: flex;
+    justify-content: center;
+  }
+
   .start-container {
     column-gap: 20px;
     display: grid;
@@ -75,8 +78,7 @@
     grid-template-rows: repeat(3, minmax(auto, max-content));
     margin-top: 0;
     row-gap: 0;
-    width: 100%;
-    max-width: 1200px;
+    width: 1015px;
   }
 
   .start-container .section__headline {

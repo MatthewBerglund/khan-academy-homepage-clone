@@ -231,18 +231,6 @@ html {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .section {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  
-  .section--start {
-    display: flex;
-    justify-content: center;
-  }
-}
-
 /* @media screen and (min-width: 768px) {
 
   .section {
