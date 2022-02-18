@@ -1,0 +1,47 @@
+.section--benefits .section__headline {
+  margin-bottom: 120px;
+}
+
+.benefits-container {
+  display: grid;
+  grid-template-rows: minmax(auto, max-content) 1fr 1fr;
+  row-gap: 80px;
+  text-align: center;
+  width: 300px;
+}
+
+.benefit {
+  display: grid;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.benefit__headline {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-container {
+    text-align: left;
+    width: 500px;
+  }
+
+  .benefit {
+    grid-template-columns: 150px 310px;
+    grid-template-rows: minmax(auto, max-content) 1fr;
+    justify-items: flex-start;
+    column-gap: 60px;
+  }
+
+  .benefit__img {
+    grid-row: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .benefit__text {
+    grid-column: 2;
+  }
+}
