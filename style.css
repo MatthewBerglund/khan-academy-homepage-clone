@@ -83,11 +83,20 @@ html {
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
+  justify-content: center;
+}
+
+.section--join .section__headline {
+  margin-bottom: 60px;
 }
 
 .section--join nav {
   display: grid;
   row-gap: 10px;
+}
+
+.section--join .btn {
+  width: 300px;
 }
 
 
@@ -103,6 +112,7 @@ html {
   display: grid;
   row-gap: 60px;
   justify-items: center;
+  margin-bottom: 120px;
 }
 
 .supporter-logo {
@@ -222,6 +232,15 @@ html {
     padding-left: 70px;
     padding-right: 70px;
   }
+
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .footer__site-navs {
+    justify-items: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -257,5 +276,10 @@ html {
 
   .btn--small {
     padding: 1.4rem 3rem;
+  }
+
+  .footer {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
